@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBackReset"
         android:background="@drawable/cornerbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,22 +59,22 @@
         android:layout_marginTop="92dp"
         android:text="Back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnResetPass" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnResetPass"
         android:background="@drawable/cornerbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:width="300dp"
         android:text="@string/btn_reset_password"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/editEmailReset"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailReset" />
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editEmailReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
